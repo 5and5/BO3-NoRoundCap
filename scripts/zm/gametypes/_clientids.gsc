@@ -6,6 +6,8 @@
 
 #insert scripts\shared\shared.gsh;
 
+#using scripts\zm\_zm_perks;
+
 #namespace clientids;
 
 REGISTER_SYSTEM( "clientids", &__init__, undefined )
@@ -37,6 +39,33 @@ function on_player_connect()
 function on_player_spawn()
 {
     level flag::wait_till("initial_blackscreen_passed");
-    iprintln("test");
+
+	self func_giveWeapon("idgun_0");
+	// self func_doGivePerk("specialty_rof");
+	// self func_doGivePerk("specialty_armorvest");
+	// self func_doGivePerk("specialty_quickrevive");
+	// self func_doGivePerk("specialty_fastreload");
 }
- 
+
+function func_giveWeapon(weapon)
+{
+    self TakeWeapon(self GetCurrentWeapon());
+    weapon = getWeapon(weapon);
+    self GiveWeapon(weapon);
+    self GiveMaxAmmo(weapon);
+    self SwitchToWeapon(weapon);
+    self iprintln(weapon+" ^2Given");
+}
+
+function func_doGivePerk(perk)
+{
+    if (!(self hasperk(perk) || self zm_perks::has_perk_paused(perk)))
+    {
+        self zm_perks::vending_trigger_post_think( self, perk );
+    }
+    else
+    {
+        self notify(perk + "_stop");
+        self iprintln("Perk [" + perk + "] ^1Removed");
+    }
+}
