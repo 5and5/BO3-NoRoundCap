@@ -41,10 +41,7 @@ function on_player_spawn()
     level flag::wait_till("initial_blackscreen_passed");
 
 	self func_giveWeapon("idgun_0");
-	// self func_doGivePerk("specialty_rof");
-	// self func_doGivePerk("specialty_armorvest");
-	// self func_doGivePerk("specialty_quickrevive");
-	// self func_doGivePerk("specialty_fastreload");
+	self func_doGivePerk("specialty_armorvest");
 }
 
 function func_giveWeapon(weapon)

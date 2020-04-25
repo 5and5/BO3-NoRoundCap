@@ -7,31 +7,28 @@ ignore_missing_shipped,core_ui
 ignore_missing_shipped,core_common
 ignore_missing_shipped,zm_common
 ignore_missing_shipped,zm_patch
-scriptparsetree,scripts\zm\gametypes\_clientids.gsc
-	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\mods\no_round_cap\scripts\zm\gametypes\_clientids.gsc,1587669447,
-	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\shared.gsh,1587420471,
 scriptparsetree,scripts\zm\_zm.gsc
-	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\mods\no_round_cap\scripts\zm\_zm.gsc,1587665057,
-	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\shared.gsh,1587420471,
-	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\version.gsh,1587422380,
-	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\ai\systems\gib.gsh,1587419017,
-	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\archetype_shared\archetype_shared.gsh,1587419985,
-	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\aat_zm.gsh,1587420468,
-	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\ai\zombie.gsh,1587420469,
-	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\zm\_zm_laststand.gsh,1587422381,
-	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\zm\_zm_perks.gsh,1587420474,
-	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\zm\_zm_utility.gsh,1587421004,
+	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\mods\no_round_cap\scripts\zm\_zm.gsc,1587833705,
+	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\shared.gsh,1557415430,
+	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\version.gsh,1557415430,
+	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\ai\systems\gib.gsh,1557415430,
+	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\archetype_shared\archetype_shared.gsh,1557415430,
+	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\aat_zm.gsh,1557415430,
+	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\ai\zombie.gsh,1557415430,
+	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\zm\_zm_laststand.gsh,1557415430,
+	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\zm\_zm_perks.gsh,1557415430,
+	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\zm\_zm_utility.gsh,1557415430,
 scriptparsetree,scripts\zm\_zm.csc
 	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\mods\no_round_cap\scripts\zm\_zm.csc,1587420473,
-	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\aat_shared.gsh,1587421001,
-	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\duplicaterender.gsh,1587419986,
-	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\shared.gsh,1587420471,
-	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\version.gsh,1587422380,
-	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\aat_zm.gsh,1587420468,
+	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\aat_shared.gsh,1557415430,
+	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\duplicaterender.gsh,1557415430,
+	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\shared.gsh,1557415430,
+	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\version.gsh,1557415430,
+	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\aat_zm.gsh,1557415430,
 texturecombo,zm_mod
 assetlist,zm_mod
 	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\gamedata\playeranim\playeranimtypes.txt,1587420217,
-	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\mods\no_round_cap\zone_source\zm_mod.zone,1587667057,c06c2a05,baac6010,ebcca004,2a4dcb26
+	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\mods\no_round_cap\zone_source\zm_mod.zone,1587849225,0fda4fac,1bffe99a,217da435,1a12c392
 	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\zone_source\zm_mod.class,1587420487,
 	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\zone_source\mod_default.class,1587420574,
 	file,A:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\zone_source\default.class,1587420487,

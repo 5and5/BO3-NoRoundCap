@@ -545,7 +545,6 @@ function ShowHudAndPlayPromo()
 
 function onAllPlayersReady()
 {
-	
 	timeOut = GetTime() + 5000;	// 5 second time out.
 	
 	while(IsLoadingCinematicPlaying() || (GetNumExpectedPlayers() == 0  && (GetTime() < timeOut)))
@@ -1154,9 +1153,9 @@ function init_levelvars()
 	level.super_ee_weapon				= GetWeapon( "pistol_burst" );
 	level.laststandpistol				= level.default_laststandpistol;		// so we dont get the uber colt when we're knocked out
 	level.start_weapon					= level.default_laststandpistol;
-	level.first_round					= false;//true;	
+	level.first_round					= true;	
 	level.start_round					= GetGametypeSetting( "startRound" );
-	level.round_number					= 257;//level.start_round;
+	level.round_number					= level.start_round;
 	level.enable_magic					= GetGametypeSetting( "magic" );
 	level.headshots_only				= GetGametypeSetting( "headshotsonly" );	
 	level.player_starting_points 		= level.round_number * 500;
@@ -1314,10 +1313,9 @@ function init_dvars()
 		SetDvar( "scr_zm_enable_bots", "0" );
 	}
 
-	// disable cheats later
 	if( GetDvarString( "zombie_cheat" ) == "" )
 	{
-		SetDvar( "zombie_cheat", "2" );
+		SetDvar( "zombie_cheat", "0" );
 	}
 
 	if ( GetDvarString("zombiemode_debug_zombie_count") == "" ) 
@@ -4365,11 +4363,9 @@ function round_think( restart = false )
 
 	SetRoundsPlayed( level.round_number );
 
+	// max spawn rate
+	//level.zombie_vars["zombie_spawn_delay"] = 0.1;
 
-	// testing
-	//level.first_round = false;
-	//level.round_number = 257;
-	
 	for( ;; )
 	{
 		//////////////////////////////////////////

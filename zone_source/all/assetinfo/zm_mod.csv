@@ -1,8 +1,7 @@
 index,type,name,resident,streamed,parentStack
 1,string,,0,0,||assetlist
-2,scriptparsetree,scripts/zm/gametypes/_clientids.gsc,1717,0,|zone_source/zm_mod.zone|csv
-3,scriptparsetree,scripts/zm/_zm.gsc,122432,0,|zone_source/zm_mod.zone|csv
-4,scriptparsetree,scripts/zm/_zm.csc,29948,0,|zone_source/zm_mod.zone|csv
-5,keyvaluepairs,zm_mod,1114,0,||assetlist
-6,bgcache,zm_mod,9241,0,||assetlist
-7,assetlist,,80,0,
+2,scriptparsetree,scripts/zm/_zm.gsc,122281,0,|zone_source/zm_mod.zone|csv
+3,scriptparsetree,scripts/zm/_zm.csc,30004,0,|zone_source/zm_mod.zone|csv
+4,keyvaluepairs,zm_mod,1118,0,||assetlist
+5,bgcache,zm_mod,9241,0,||assetlist
+6,assetlist,,64,0,
