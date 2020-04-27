@@ -7,3 +7,6 @@
 
 scriptparsetree,scripts\zm\_zm.gsc
 scriptparsetree,scripts\zm\_zm.csc
+
+
+rawfile,dummy.cfg
