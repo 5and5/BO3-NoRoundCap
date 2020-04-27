@@ -3,10 +3,10 @@
 
 #include "zm_mod.class"
 
-//scriptparsetree,scripts\zm\gametypes\_clientids.gsc
+scriptparsetree,scripts\zm\gametypes\_clientids.gsc
 
-scriptparsetree,scripts\zm\_zm.gsc
-scriptparsetree,scripts\zm\_zm.csc
+//scriptparsetree,scripts\zm\_zm.gsc
+//scriptparsetree,scripts\zm\_zm.csc
 
 
 rawfile,dummy.cfg
